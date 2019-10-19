@@ -53,10 +53,14 @@
   }
 
   /*limit width*/
-  div.nH.bkK.nn .nH {}
-
   div.aeF {
     max-width: 1080px;
+    scrollbar-width: none;
+  }
+
+  /* get rid of scrollbar*/
+  div.Tm.aeJ {
+    scrollbar-width: none;
   }
 
   /*gmail logo*/
@@ -167,6 +171,7 @@
 
   ::-webkit-scrollbar {
     display: none;
+    scrollbar-width: none;
   }
 
   /*side buttons that interfere with normal mail operations */
